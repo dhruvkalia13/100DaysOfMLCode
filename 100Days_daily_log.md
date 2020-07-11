@@ -4,3 +4,7 @@
 
 * Importing libraries
 * Importing dataset
+* Handling missing values
+    * by dropping columns
+    * by imputing values
+    * by extending imputation
