@@ -8,3 +8,10 @@
     * by dropping columns
     * by imputing values
     * by extending imputation
+
+## Day 2
+
+* Handling categorical values
+    * by dropping columns
+    * by label encoding
+    * by one-hot encoding
