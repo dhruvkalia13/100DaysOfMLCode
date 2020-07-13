@@ -15,3 +15,10 @@
     * by dropping columns
     * by label encoding
     * by one-hot encoding
+
+## Day 3
+
+* Splitting dataset
+* Feature Scaling
+    * Normalization
+    * Standardization
