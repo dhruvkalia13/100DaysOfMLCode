@@ -22,3 +22,7 @@
 * Feature Scaling
     * Normalization
     * Standardization
+    
+## Day 4
+
+* Simple Linear Regression
