@@ -16,3 +16,7 @@
 * Feature Scaling
     * Normalization
     * Standardization
+
+## Regression
+
+* Simple Linear Regression
