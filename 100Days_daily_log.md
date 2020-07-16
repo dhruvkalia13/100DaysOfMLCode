@@ -30,3 +30,7 @@
 ## Day 5
 
 * Multiple Linear Regression
+
+## Day 6
+
+* Stepwise Regression (Backward Elimination)
