@@ -24,19 +24,19 @@ df_X_normalized = pd.DataFrame(min_max_scaler.fit_transform(imputed_data_X))
 X = np.append(arr=np.ones((1000, 1)).astype(int), values=df_X_normalized, axis=1)
 X_opt = X[:, [0, 1, 2, 3]]
 regressor_OLS = sm.OLS(endog=imputed_data_Y, exog=X_opt).fit()
-print(regressor_OLS.rsquared_adj)
+print(regressor_OLS.summary())
 
 X = np.append(arr=np.ones((1000, 1)).astype(int), values=df_X_normalized, axis=1)
-X_opt = X[:, [0, 2, 3]]
+X_opt = X[:, [1, 2, 3]]
 regressor_OLS = sm.OLS(endog=imputed_data_Y, exog=X_opt).fit()
-print(regressor_OLS.rsquared_adj)
-
+print(regressor_OLS.summary())
+#
 X = np.append(arr=np.ones((1000, 1)).astype(int), values=df_X_normalized, axis=1)
-X_opt = X[:, [2, 3]]
+X_opt = X[:, [1, 3]]
 regressor_OLS = sm.OLS(endog=imputed_data_Y, exog=X_opt).fit()
-print(regressor_OLS.rsquared_adj)
-
+print(regressor_OLS.summary())
+#
 X = np.append(arr=np.ones((1000, 1)).astype(int), values=df_X_normalized, axis=1)
 X_opt = X[:, [3]]
 regressor_OLS = sm.OLS(endog=imputed_data_Y, exog=X_opt).fit()
-print(regressor_OLS.rsquared_adj)
+print(regressor_OLS.summary())
