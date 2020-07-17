@@ -34,3 +34,7 @@
 ## Day 6
 
 * Stepwise Regression (Backward Elimination)
+
+## Day 7
+
+* Polynomial Regression
