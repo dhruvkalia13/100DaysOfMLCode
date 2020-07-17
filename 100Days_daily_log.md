@@ -38,3 +38,7 @@
 ## Day 7
 
 * Polynomial Regression
+
+## Day 8
+
+* SVM Regression
