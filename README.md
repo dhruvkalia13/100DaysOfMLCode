@@ -24,3 +24,5 @@
 * Stepwise Regression (Backward Elimination)
 * Polynomial Regression
 * SVM Regression
+    * Linear regression
+    * Non-linear regression

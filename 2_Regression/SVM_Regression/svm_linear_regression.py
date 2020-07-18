@@ -21,7 +21,7 @@ plt.ylabel("Yearly Amount Spent")
 plt.show()
 
 # Creating model
-svm_reg = LinearSVR(epsilon=4)
+svm_reg = LinearSVR(epsilon=1)
 svm_reg.fit(X, Y['Yearly Amount Spent'])
 
 # Predicting and plotting line

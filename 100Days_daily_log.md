@@ -42,3 +42,6 @@
 ## Day 8
 
 * SVM Regression
+    * Linear regression
+    * Non-linear regression
+
