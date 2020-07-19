@@ -30,4 +30,4 @@ plt.show()
 
 # Decision Tree
 plt.figure(figsize=[20, 10])
-tree.plot_tree(tree_reg, rounded= True, filled= True)
+tree.plot_tree(tree_reg, rounded=True, filled=True)
