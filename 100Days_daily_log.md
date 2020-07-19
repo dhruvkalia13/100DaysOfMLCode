@@ -45,3 +45,6 @@
     * Linear regression
     * Non-linear regression
 
+## Day 9
+
+* Decision Tree Regression
