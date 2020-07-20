@@ -27,3 +27,4 @@
     * Linear regression
     * Non-linear regression
 * Decision Tree Regression
+* Random Forest Regression

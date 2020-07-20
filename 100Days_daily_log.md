@@ -48,3 +48,7 @@
 ## Day 9
 
 * Decision Tree Regression
+
+## Day 10
+
+* Random Forest Regression
