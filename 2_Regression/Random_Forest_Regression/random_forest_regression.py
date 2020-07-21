@@ -14,7 +14,7 @@ df = df.loc[1:1000, ['T_degC', 'Salnty']]
 # Dividing dependent and independent variables
 train = df[['Salnty']]
 test = df[['T_degC']]
-
+df.drop
 # Fixing missing values issue and imputing
 imputer = SimpleImputer(strategy="mean")
 train_imputed = pd.DataFrame(imputer.fit_transform(train))
