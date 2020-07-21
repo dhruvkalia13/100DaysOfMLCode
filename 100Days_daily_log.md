@@ -52,3 +52,7 @@
 ## Day 10
 
 * Random Forest Regression
+
+## Day 11
+
+* Logistic Regression
