@@ -56,3 +56,7 @@
 ## Day 11
 
 * Logistic Regression
+
+## Day 12
+
+* K Nearest Neighbour

@@ -32,3 +32,4 @@
 ## Classification
 
 * Logistic Regression
+* K Nearest Neighbour
