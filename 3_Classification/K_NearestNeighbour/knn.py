@@ -9,7 +9,7 @@ from sklearn import metrics
 # Importing dataset
 df = pd.read_csv("Dataset/tele_customer.csv")
 
-# Dependent and Indepent variables
+# Dependent and Independent variables
 X = df[['region', 'tenure', 'age', 'marital', 'address', 'income', 'ed', 'employ', 'retire', 'gender', 'reside']]
 y = df['custcat']
 
