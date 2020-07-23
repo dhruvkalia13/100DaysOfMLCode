@@ -60,3 +60,7 @@
 ## Day 12
 
 * K Nearest Neighbour
+
+## Day 13
+
+* SVM Classifier

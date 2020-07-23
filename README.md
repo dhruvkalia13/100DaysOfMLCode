@@ -33,3 +33,4 @@
 
 * Logistic Regression
 * K Nearest Neighbour
+* SVM Classifier
