@@ -34,3 +34,5 @@
 * Logistic Regression
 * K Nearest Neighbour
 * SVM Classifier
+    * Linear Classification
+    * Non-linear Classification

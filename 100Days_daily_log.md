@@ -63,4 +63,8 @@
 
 ## Day 13
 
-* SVM Classifier
+* SVM Classifier (Linear)
+
+## Day 14
+
+* SVM Classifier (Non-linear)
