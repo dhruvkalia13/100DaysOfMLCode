@@ -36,3 +36,4 @@
 * SVM Classifier
     * Linear Classification
     * Non-linear Classification
+* Naive Bayes Classification

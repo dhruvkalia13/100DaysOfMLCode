@@ -68,3 +68,7 @@
 ## Day 14
 
 * SVM Classifier (Non-linear)
+
+## Day 15
+
+* Naive Bayes Classification
