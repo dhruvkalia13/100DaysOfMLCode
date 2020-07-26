@@ -37,3 +37,4 @@
     * Linear Classification
     * Non-linear Classification
 * Naive Bayes Classification
+* Decision Tree Classifier

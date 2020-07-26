@@ -72,3 +72,7 @@
 ## Day 15
 
 * Naive Bayes Classification
+
+## Day 16
+
+* Decision Tree Classifier
