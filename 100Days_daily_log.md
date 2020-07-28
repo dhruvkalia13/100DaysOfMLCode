@@ -80,3 +80,7 @@
 ## Day 17
 
 * Random Forest Classifier
+
+## Day 18
+
+* K Means Clustering

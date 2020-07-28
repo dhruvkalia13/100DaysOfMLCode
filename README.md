@@ -39,3 +39,7 @@
 * Naive Bayes Classification
 * Decision Tree Classifier
 * Random Forest Classifier
+
+## Clustering
+
+* K Means Clustering
