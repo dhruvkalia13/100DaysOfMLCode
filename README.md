@@ -44,3 +44,4 @@
 
 * K Means Clustering
 * DBSCAN Clustering
+* Mean Shift Clustering
