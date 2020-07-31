@@ -92,3 +92,8 @@
 ## Day 20
 
 * Mean Shift Clustering
+
+## Day 21
+
+* Introduction to ANN
+* Perceptron
