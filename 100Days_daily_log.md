@@ -97,3 +97,8 @@
 
 * Introduction to ANN
 * Perceptron
+
+## Day 22
+
+* Multilayer Perceptron
+* Backpropagation Algorithm

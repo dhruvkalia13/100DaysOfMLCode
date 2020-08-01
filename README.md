@@ -50,3 +50,5 @@
 
 * Introduction to ANN
 * Perceptron
+* Multilayer Perceptron
+* Backpropagation Algorithm
