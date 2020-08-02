@@ -52,3 +52,4 @@
 * Perceptron
 * Multilayer Perceptron
 * Backpropagation Algorithm
+* Classification MLP

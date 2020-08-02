@@ -102,3 +102,7 @@
 
 * Multilayer Perceptron
 * Backpropagation Algorithm
+
+## Day 23
+
+* Classification MLP
