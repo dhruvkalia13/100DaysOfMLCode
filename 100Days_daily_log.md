@@ -106,3 +106,8 @@
 ## Day 23
 
 * Classification MLP
+
+## Day 24
+
+* Tuning the model
+* Making predictions 
