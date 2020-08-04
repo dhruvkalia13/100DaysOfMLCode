@@ -110,4 +110,8 @@
 ## Day 24
 
 * Tuning the model
-* Making predictions 
+* Making predictions
+
+## Day 25
+
+* Regression MLP 
