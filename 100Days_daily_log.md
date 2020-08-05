@@ -105,7 +105,7 @@
 
 ## Day 23
 
-* Classification MLP
+* Sequential API (Classification MLP)
 
 ## Day 24
 
@@ -114,4 +114,8 @@
 
 ## Day 25
 
-* Regression MLP 
+* Sequential API (Regression MLP)
+
+## Day 26
+
+* Functional API (Regression MLP) 

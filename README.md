@@ -52,5 +52,7 @@
 * Perceptron
 * Multilayer Perceptron
 * Backpropagation Algorithm
-* Classification MLP
-* Regression MLP
+* Sequential API
+    * Classification MLP
+    * Regression MLP
+* Functional API (Regression MLP)
