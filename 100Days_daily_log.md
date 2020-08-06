@@ -118,4 +118,10 @@
 
 ## Day 26
 
-* Functional API (Regression MLP) 
+* Functional API (Regression MLP)
+
+## Day 27
+
+* Saving and restoring a model
+* Callbacks
+* Visualizing logs in Tensorboard
