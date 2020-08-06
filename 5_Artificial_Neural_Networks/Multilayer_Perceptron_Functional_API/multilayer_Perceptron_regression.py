@@ -7,6 +7,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 from tensorflow.python import keras
 from keras import layers
+import os
 
 # Importing data
 df = pd.read_csv("../Multilayer_Perceptron_Sequential_API/Dataset/water.csv")
@@ -47,7 +48,19 @@ output = layers.Dense(1)(concat)
 model = keras.Model(inputs=[input_], outputs=[output])
 model.compile(loss="mean_squared_error", optimizer="sgd")
 
-history = model.fit(X_train, y_train, epochs=20, validation_data=(X_valid, y_valid))
+root_logdir = os.path.join(os.curdir, "my_logs")
+
+
+def get_run_logdir():
+    import time
+    run_id = time.strftime("run_%Y_%m_%d-%H_%M_%S")
+    return os.path.join(root_logdir, run_id)
+
+
+run_logdir = get_run_logdir()
+
+tensorboard_cb = keras.callbacks.TensorBoard(run_logdir)
+history = model.fit(X_train, y_train, epochs=20, validation_data=(X_valid, y_valid), callbacks=[tensorboard_cb])
 mse_test = model.evaluate(X_test, y_test)
 
 # Predicting
