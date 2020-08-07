@@ -6,8 +6,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import r2_score
 from tensorflow.python import keras
-from keras import layers
+import tensorflow as tf
 import os
+from scipy.stats import reciprocal
+from sklearn.model_selection import RandomizedSearchCV
 
 # Importing data
 df = pd.read_csv("../Multilayer_Perceptron_Sequential_API/Dataset/water.csv")
@@ -39,14 +41,38 @@ X_train = scaler.fit_transform(X_train)
 X_valid = scaler.transform(X_valid)
 X_test = scaler.transform(X_test)
 
-# Creating model
-input_ = layers.Input(shape=X_train.shape[1:])
-hidden1 = layers.Dense(16, activation="relu")(input_)
-hidden2 = layers.Dense(8, activation="relu")(hidden1)
-concat = layers.Concatenate()([input_, hidden2])
-output = layers.Dense(1)(concat)
-model = keras.Model(inputs=[input_], outputs=[output])
-model.compile(loss="mean_squared_error", optimizer="sgd")
+
+def build_model(n_hidden=1, n_neurons=30, learning_rate=3e-3, input_shape=[2]):
+    model = keras.models.Sequential()
+    model.add(keras.layers.InputLayer(input_shape=input_shape))
+    for layer in range(n_hidden):
+        model.add(keras.layers.Dense(n_neurons, activation="relu"))
+    model.add(keras.layers.Dense(1))
+    optimizer = tf.keras.optimizers.SGD(lr=learning_rate)
+    model.compile(loss="mse", optimizer=optimizer)
+    return model
+
+
+keras_reg = tf.keras.wrappers.scikit_learn.KerasRegressor(build_model)
+param_distribs = {
+    "n_hidden": [0, 1, 2, 3],
+    "n_neurons": np.arange(1, 100),
+    "learning_rate": reciprocal(3e-4, 3e-2),
+}
+
+rnd_search_cv = RandomizedSearchCV(keras_reg, param_distribs, n_iter=10, cv=3)
+rnd_search_cv.fit(X_train, y_train, epochs=100,
+                  validation_data=(X_valid, y_valid),
+                  callbacks=[keras.callbacks.EarlyStopping(patience=10)])
+
+model = build_model(n_hidden=rnd_search_cv.best_params_['n_hidden'], n_neurons=rnd_search_cv.best_params_['n_neurons'],
+                    learning_rate=rnd_search_cv.best_params_['learning_rate'], input_shape=[2])
+
+# Fitting
+history = model.fit(X_train, y_train, epochs=20, validation_data=(X_valid, y_valid))
+
+# Evaluating
+mse_test = model.evaluate(X_test, y_test)
 
 root_logdir = os.path.join(os.curdir, "my_logs")
 
@@ -63,7 +89,7 @@ tensorboard_cb = keras.callbacks.TensorBoard(run_logdir)
 history = model.fit(X_train, y_train, epochs=20, validation_data=(X_valid, y_valid), callbacks=[tensorboard_cb])
 mse_test = model.evaluate(X_test, y_test)
 
-# Predicting
+# # Predicting
 pred = model.predict(X_test)
 
 # Accuracy measures
