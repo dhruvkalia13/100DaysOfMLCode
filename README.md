@@ -59,3 +59,5 @@
 * Saving and restoring a model
 * Callbacks
 * Visualizing logs in Tensorboard
+* Fine tuning neural network hyperparameters
+* RandomizedSearchCV

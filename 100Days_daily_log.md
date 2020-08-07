@@ -125,3 +125,8 @@
 * Saving and restoring a model
 * Callbacks
 * Visualizing logs in Tensorboard
+
+## Day 28
+
+* Fine tuning neural network hyperparameters
+* RandomizedSearchCV
