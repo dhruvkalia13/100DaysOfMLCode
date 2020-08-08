@@ -130,3 +130,7 @@
 
 * Fine tuning neural network hyperparameters
 * RandomizedSearchCV
+
+## Day 29
+
+* Importance of optimizer and loss function
