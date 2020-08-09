@@ -61,3 +61,4 @@
 * Visualizing logs in Tensorboard
 * Fine tuning neural network hyperparameters
 * RandomizedSearchCV
+* Batch Normalization

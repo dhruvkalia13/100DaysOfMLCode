@@ -134,3 +134,7 @@
 ## Day 29
 
 * Importance of optimizer and loss function
+
+## Day 30
+
+* Batch Normalization
