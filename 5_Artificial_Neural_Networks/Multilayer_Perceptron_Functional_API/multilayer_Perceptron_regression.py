@@ -12,6 +12,8 @@ from scipy.stats import reciprocal
 from sklearn.model_selection import RandomizedSearchCV
 
 # Importing data
+from tensorflow.python.layers.normalization import BatchNormalization
+
 df = pd.read_csv("../Multilayer_Perceptron_Sequential_API/Dataset/water.csv")
 df = df.loc[1:1000, ['T_degC', 'Salnty', 'Depthm']]
 df.head()
@@ -46,6 +48,7 @@ def build_model(n_hidden=1, n_neurons=30, learning_rate=3e-3, input_shape=[2]):
     model = keras.models.Sequential()
     model.add(keras.layers.InputLayer(input_shape=input_shape))
     for layer in range(n_hidden):
+        model.add(BatchNormalization())
         model.add(keras.layers.Dense(n_neurons, activation="relu"))
     model.add(keras.layers.Dense(1))
     optimizer = tf.keras.optimizers.SGD(lr=learning_rate)
