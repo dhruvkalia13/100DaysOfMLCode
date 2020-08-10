@@ -138,3 +138,8 @@
 ## Day 30
 
 * Batch Normalization
+
+## Day 31
+
+* Customer Churn
+* Transfer Learning

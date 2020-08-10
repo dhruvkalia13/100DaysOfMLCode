@@ -62,3 +62,4 @@
 * Fine tuning neural network hyperparameters
 * RandomizedSearchCV
 * Batch Normalization
+* Transfer Learning
