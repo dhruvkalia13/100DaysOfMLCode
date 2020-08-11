@@ -63,3 +63,4 @@
 * RandomizedSearchCV
 * Batch Normalization
 * Transfer Learning
+* Momentum Optimization

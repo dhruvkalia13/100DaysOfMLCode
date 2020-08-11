@@ -143,3 +143,8 @@
 
 * Customer Churn
 * Transfer Learning
+
+## Day 32
+
+* Added visualizations in Customer Churn
+* Momentum optimization
