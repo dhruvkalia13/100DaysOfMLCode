@@ -64,3 +64,4 @@
 * Batch Normalization
 * Transfer Learning
 * Momentum Optimization
+* AdaGrad and RMSProp

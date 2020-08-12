@@ -148,3 +148,7 @@
 
 * Added visualizations in Customer Churn
 * Momentum optimization
+
+## Day 33
+
+* AdaGrad and RMSProp
