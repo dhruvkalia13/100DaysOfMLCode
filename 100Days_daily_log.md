@@ -152,3 +152,7 @@
 ## Day 33
 
 * AdaGrad and RMSProp
+
+## Day 34
+
+* Adam and Nadam Optimization

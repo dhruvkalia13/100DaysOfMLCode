@@ -65,3 +65,4 @@
 * Transfer Learning
 * Momentum Optimization
 * AdaGrad and RMSProp
+* Adam and Nadam Optimization
