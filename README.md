@@ -66,3 +66,4 @@
 * Momentum Optimization
 * AdaGrad and RMSProp
 * Adam and Nadam Optimization
+* Learning Rate Scheduling 

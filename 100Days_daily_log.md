@@ -156,3 +156,7 @@
 ## Day 34
 
 * Adam and Nadam Optimization
+
+## Day 35
+
+* Learning Rate Scheduling
