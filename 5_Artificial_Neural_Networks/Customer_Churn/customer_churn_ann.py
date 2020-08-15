@@ -38,8 +38,11 @@ model.add(keras.layers.BatchNormalization())
 model.add(keras.layers.Dense(50, kernel_initializer="normal", activation="relu"))
 model.add(keras.layers.BatchNormalization())
 model.add(keras.layers.Dense(2, activation="softmax"))
-model.compile(loss="sparse_categorical_crossentropy", optimizer="sgd", metrics=["accuracy"])
+s = 20 * len(X_train)
+learning_rate = keras.optimizers.schedules.ExponentialDecay(0.01, s, 0.1)
+optimizer = keras.optimizers.SGD(learning_rate)
+model.compile(loss="sparse_categorical_crossentropy", optimizer=optimizer, metrics=["accuracy"])
 
-history=model.fit(X_train, y_train, epochs=100)
+history=model.fit(X_train, y_train, epochs=100, batch_size=32)
 
 model.evaluate(X_test, y_test)
