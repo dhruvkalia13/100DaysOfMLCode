@@ -66,4 +66,8 @@
 * Momentum Optimization
 * AdaGrad and RMSProp
 * Adam and Nadam Optimization
-* Learning Rate Scheduling 
+* Learning Rate Scheduling
+
+## Convolutional Neural Networks
+
+* Convolution Layers

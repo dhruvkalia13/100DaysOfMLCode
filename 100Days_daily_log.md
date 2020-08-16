@@ -160,3 +160,11 @@
 ## Day 35
 
 * Learning Rate Scheduling
+
+## Day 36
+
+* Learning Rate Scheduling (Impl)
+
+## Day 37
+
+* Convolution Layers (CNN)
