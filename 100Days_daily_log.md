@@ -168,3 +168,8 @@
 ## Day 37
 
 * Convolution Layers (CNN)
+
+## Day 38
+
+* Zero Padding, Strides, Filters
+* CNN basic implementation

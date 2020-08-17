@@ -71,3 +71,4 @@
 ## Convolutional Neural Networks
 
 * Convolution Layers
+* Zero Padding, Strides, Filters
