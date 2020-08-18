@@ -72,3 +72,6 @@
 
 * Convolution Layers
 * Zero Padding, Strides, Filters
+* Pooling Layers
+* CNN Architecture
+* CNN (Fashion MNIST dataset)

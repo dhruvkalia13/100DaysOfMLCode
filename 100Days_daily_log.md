@@ -173,3 +173,9 @@
 
 * Zero Padding, Strides, Filters
 * CNN basic implementation
+
+## Day 39
+
+* Pooling Layers (CNN)
+* CNN Architecture
+* CNN (Fashion MNIST dataset)
