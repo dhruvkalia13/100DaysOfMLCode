@@ -1,4 +1,5 @@
 from tensorflow import keras
+import numpy as np
 
 fashion_mnist = keras.datasets.fashion_mnist
 
@@ -34,3 +35,11 @@ opt = keras.optimizers.SGD(lr=0.01, momentum=0.9)
 model.compile(optimizer=opt, loss='sparse_categorical_crossentropy', metrics=['accuracy'])
 # fit model
 history = model.fit(X_train, y_train, epochs=10, batch_size=64, validation_data=(X_valid, y_valid))
+
+X_new = X_test[:3]
+X_new = X_new.reshape(3, 28, 28, 1)
+y_proba = model.predict(X_new)
+y_proba.round(2)
+y_pred = model.predict_classes(X_new)
+
+print(np.array(class_names)[y_pred])
