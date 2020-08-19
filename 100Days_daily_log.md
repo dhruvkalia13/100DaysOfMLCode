@@ -179,3 +179,7 @@
 * Pooling Layers (CNN)
 * CNN Architecture
 * CNN (Fashion MNIST dataset)
+
+## Day 40
+
+* Predicting CNN (Fashion MNIST dataset)
