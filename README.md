@@ -75,3 +75,5 @@
 * Pooling Layers
 * CNN Architecture
 * CNN (Fashion MNIST dataset)
+* LeNet-5
+* Data Augmentation

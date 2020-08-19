@@ -183,3 +183,5 @@
 ## Day 40
 
 * Predicting CNN (Fashion MNIST dataset)
+* LeNet-5
+* Data Augmentation
