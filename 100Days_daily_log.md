@@ -185,3 +185,8 @@
 * Predicting CNN (Fashion MNIST dataset)
 * LeNet-5
 * Data Augmentation
+
+## Day 41
+
+* Using pretrained models from keras
+* Image classification using ResNet

@@ -77,3 +77,5 @@
 * CNN (Fashion MNIST dataset)
 * LeNet-5
 * Data Augmentation
+* Using pretrained models from keras
+* Image classification using ResNet
