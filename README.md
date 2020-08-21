@@ -79,3 +79,5 @@
 * Data Augmentation
 * Using pretrained models from keras
 * Image classification using ResNet
+* Using pretrained models for transfer learning
+* Image classification using Xception layers
