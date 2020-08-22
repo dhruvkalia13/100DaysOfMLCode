@@ -81,3 +81,5 @@
 * Image classification using ResNet
 * Using pretrained models for transfer learning
 * Image classification using Xception layers
+* Classification and Localization
+* Object detection

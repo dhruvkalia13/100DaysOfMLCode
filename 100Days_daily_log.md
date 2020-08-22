@@ -195,3 +195,8 @@
 
 * Using pretrained models for transfer learning
 * Image classification using Xception layers
+
+## Day 43
+
+* Classification and Localization
+* Object detection
