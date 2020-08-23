@@ -83,3 +83,4 @@
 * Image classification using Xception layers
 * Classification and Localization
 * Object detection
+* R-CNN
