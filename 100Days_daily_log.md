@@ -204,3 +204,7 @@
 ## Day 44
 
 * R-CNN
+
+## Day 45
+
+* Object detection using R-CNN (Implementation)
