@@ -84,3 +84,6 @@
 * Classification and Localization
 * Object detection
 * R-CNN
+* Comparison between R-CNN, R-CNN Fast and R-CNN Faster
+* Selective search
+* Region Proposal Network

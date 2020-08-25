@@ -208,3 +208,9 @@
 ## Day 45
 
 * Object detection using R-CNN (Implementation)
+
+## Day 46
+
+* Comparison between R-CNN, R-CNN Fast and R-CNN Faster
+* Selective search
+* Region Proposal Network
