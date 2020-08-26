@@ -214,3 +214,7 @@
 * Comparison between R-CNN, R-CNN Fast and R-CNN Faster
 * Selective search
 * Region Proposal Network
+
+## Day 47
+
+* Image Segmentation
