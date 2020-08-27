@@ -88,3 +88,7 @@
 * Selective search
 * Region Proposal Network
 * Image Segmentation
+
+## Recurrent Neural Networks
+
+* Recurrent Neurons

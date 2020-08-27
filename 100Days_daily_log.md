@@ -218,3 +218,8 @@
 ## Day 47
 
 * Image Segmentation
+
+## Day 48
+
+* Starting with RNNs
+* Recurrent Neurons
