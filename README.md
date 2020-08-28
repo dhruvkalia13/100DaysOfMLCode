@@ -92,3 +92,5 @@
 ## Recurrent Neural Networks
 
 * Recurrent Neurons
+* Memory Cells in RNN
+* Input and output Sequences

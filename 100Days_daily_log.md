@@ -223,3 +223,8 @@
 
 * Starting with RNNs
 * Recurrent Neurons
+
+## Day 49
+
+* Memory Cells in RNN
+* Input and output Sequences
