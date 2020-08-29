@@ -94,3 +94,5 @@
 * Recurrent Neurons
 * Memory Cells in RNN
 * Input and output Sequences
+* Time Series (Univariate and Multivariate)
+* Simple RNN Model

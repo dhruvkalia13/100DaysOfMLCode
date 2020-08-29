@@ -228,3 +228,8 @@
 
 * Memory Cells in RNN
 * Input and output Sequences
+
+## Day 50
+
+* Time Series (Univariate and Multivariate)
+* Simple RNN Model
