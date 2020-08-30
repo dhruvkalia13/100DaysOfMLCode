@@ -233,3 +233,7 @@
 
 * Time Series (Univariate and Multivariate)
 * Simple RNN Model
+
+## Day 51
+
+* Google Stock Prediction using RNN
