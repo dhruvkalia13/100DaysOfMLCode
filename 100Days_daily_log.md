@@ -237,3 +237,8 @@
 ## Day 51
 
 * Google Stock Prediction using RNN
+
+## Day 52
+
+* Unstable Gradients Problem
+* Layer Normalization

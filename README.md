@@ -96,3 +96,5 @@
 * Input and output Sequences
 * Time Series (Univariate and Multivariate)
 * Simple RNN Model
+* Unstable Gradients Problem
+* Layer Normalization
