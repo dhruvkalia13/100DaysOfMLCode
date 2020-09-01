@@ -242,3 +242,7 @@
 
 * Unstable Gradients Problem
 * Layer Normalization
+
+## Day 53
+
+* Exploring SimpleRNN more
