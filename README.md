@@ -98,3 +98,4 @@
 * Simple RNN Model
 * Unstable Gradients Problem
 * Layer Normalization
+* LSTM (Long Short Term Memory)

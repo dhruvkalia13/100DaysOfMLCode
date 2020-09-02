@@ -246,3 +246,7 @@
 ## Day 53
 
 * Exploring SimpleRNN more
+
+## Day 54
+
+* LSTM (Long Short Term Memory) Network
