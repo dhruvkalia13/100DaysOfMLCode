@@ -250,3 +250,7 @@
 ## Day 54
 
 * LSTM (Long Short Term Memory) Network
+
+## Day 55
+
+* Exploring LSTM more
