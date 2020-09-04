@@ -1,4 +1,4 @@
-# Daily progress in #100DaysOfMLCode challenge
+# Daily progress
 
 ## Day 1
 
