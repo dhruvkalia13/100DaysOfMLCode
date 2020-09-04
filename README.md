@@ -1,4 +1,4 @@
-# #100DaysOfMLCode challenge
+# ML journey
 
 ## Data Preprocessing
 
